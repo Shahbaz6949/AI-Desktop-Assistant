@@ -1,0 +1,31 @@
+# --- UI ---
+PySide6>=6.5
+
+# --- HTTP / utils ---
+requests>=2.31
+
+# --- Audio IO + signal ---
+sounddevice>=0.4.6
+numpy>=1.24
+scipy>=1.10
+
+# --- STT (offline whisper) ---
+faster-whisper>=1.0.3
+huggingface-hub>=0.20
+sentencepiece>=0.1.99
+
+# --- VAD (optional but recommended) ---
+webrtcvad-wheels
+
+# --- TTS (offline) ---
+pyttsx3>=2.90
+pypiwin32; platform_system=="Windows"
+comtypes; platform_system=="Windows"
+
+# --- Browser / OS control ---
+pyautogui>=0.9.54
+pygetwindow>=0.0.9
+pyperclip>=1.8.2
+
+# --- If you open URLs/files/apps ---
+psutil>=5.9.8
